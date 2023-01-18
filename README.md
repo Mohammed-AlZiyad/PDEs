@@ -1,4 +1,5 @@
-# PDEs
+# PDEs 
+#### Partial differential equation
 
 ## Libraries
 ```python
@@ -46,8 +47,16 @@ for j in range(1,L): # steps is from 1 to L
 # Plotting the Y solutions
 for i in range(L): # The steps is from 0 to L
   plt.plot(r,Y[:,i]) # plot Y Axis
+```
+## Plot
+```python
 plt.title("The Y solution for: '0 < r < alpha(α)' (Blue) and 'alpha(α) < r < R' (Purple)\n")  # The title of plot
 plt.xlabel('distance [r]') # The x label text
 plt.ylabel('Y solu') # The y label text
 plt.show() # show the plt
 ```
+
+## Graph
+<div class="highlight highlight-source-python notranslate position-relative overflow-auto" dir="auto">
+<pre><img width="459" alt="PDEs_plot" src="https://user-images.githubusercontent.com/113702772/213215038-26862916-8fbe-4fa1-9c93-e5f7de5cb3b0.png"></pre>
+</div>
