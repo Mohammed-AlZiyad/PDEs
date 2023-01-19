@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt # for draw figure
 import math # for mathematical basic operations
 ```
 
-## PDE variables
+## Variables
 ```python
 lowercase_lambda = 0.71420 # lowercase lambda is ( λ ) 
 lowercase_alpha = 100 # lowercase alpha is ( α )
@@ -52,11 +52,11 @@ for i in range(L): # The steps is from 0 to L
 ```python
 plt.title("The Y solution for: '0 < r < alpha(α)' (Blue) and 'alpha(α) < r < R' (Purple)\n")  # The title of plot
 plt.xlabel('distance [r]') # The x label text
-plt.ylabel('Y solu') # The y label text
+plt.ylabel('Y solutions') # The y label text
 plt.show() # show the plt
 ```
 
 ## Graph
 <div class="highlight highlight-source-python notranslate position-relative overflow-auto" dir="auto">
-<pre><img width="459" alt="PDEs_plot" src="https://user-images.githubusercontent.com/113702772/213215038-26862916-8fbe-4fa1-9c93-e5f7de5cb3b0.png"></pre>
+<pre><img width="459" alt="PDEs_graph" href="#" src="https://user-images.githubusercontent.com/113702772/213215038-26862916-8fbe-4fa1-9c93-e5f7de5cb3b0.png" /></pre>
 </div>
